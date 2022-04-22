@@ -1,0 +1,9 @@
+site_name: Skybase Docs
+theme:
+  name: material
+  palette:
+    primary: light blue
+nav:
+- Home : index.md
+markdown_extensions:
+- attr_list
