@@ -1,9 +1,12 @@
 ### Introduction
-Version control software is an essential part of modern-day software developer practices.
+Hey there 👋, Glad you made it here.
 
-By far, Git is the most widely used version control system in the world. It is a distributed and actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
+Version control software is an essential part of modern-day software developer practices and obviously here at Skybase too.
 
-New to Git? Check out the official getting started guide or this slide from a past talk I gave.
+By far, Git is the most widely used version control system in the world. If you do not know the basics of git, please follow the links:
+
+- [Git basics](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
+- [Git Simple Guide](https://rogerdudler.github.io/git-guide/)
 
 ### What is a commit message?
 The commit command is used to save changes to a local repository after staging in Git. However, before you can save changes in Git, you have to tell Git which changes you want to save as you might have made tons of edits. A great way to do that is by adding a commit message to identify your changes.
@@ -145,3 +148,6 @@ Follow the commit convention defined by your team
 ### Conclusion
 
 The most important part of a commit message is that it should be clear and meaningful. In the long run, writing good commit messages shows how much of a collaborator you are. The benefits of writing good commit messages are not only limited to your team, but indeed expand to yourself and future contributors.
+
+Happy Coding ✌️
+- Skybase Team
