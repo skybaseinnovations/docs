@@ -126,24 +126,24 @@ Example 4:
 
 
 Specify the type of commit:
-Feat: The new feature you're adding to a particular application
-Fix: A bug fix
-Style: Feature and updates related to styling
-Refactor: Refactoring a specific section of the codebase
-Test: Everything related to testing
-Docs: Everything related to documentation
-Chore: Regular code maintenance.[ You can also use emojis to represent commit types]
+- Feat: The new feature you're adding to a particular application
+- Fix: A bug fix
+- Style: Feature and updates related to styling
+- Refactor: Refactoring a specific section of the codebase
+- Test: Everything related to testing
+- Docs: Everything related to documentation
+- Chore: Regular code maintenance.[ You can also use emojis to represent commit types]
 
-Separate the subject from the body with a blank line
-Your commit message should not contain any whitespace errors
-Remove unnecessary punctuation marks
-Do not end the subject line with a period
-Capitalize the subject line and each paragraph
-Use the imperative mood in the subject line
-Use the body to explain what changes you have made and why you made them.
-Do not assume the reviewer understands what the original problem was, ensure you add it.
-Do not think your code is self-explanatory
-Follow the commit convention defined by your team
+- Separate the subject from the body with a blank line
+- Your commit message should not contain any whitespace errors
+- Remove unnecessary punctuation marks
+- Do not end the subject line with a period
+- Capitalize the subject line and each paragraph
+- Use the imperative mood in the subject line
+- Use the body to explain what changes you have made and why you made them.
+- Do not assume the reviewer understands what the original problem was, ensure you add it.
+- Do not think your code is self-explanatory
+- Follow the commit convention defined by your team
 
 ### Conclusion
 
