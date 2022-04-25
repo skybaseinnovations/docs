@@ -1,11 +1,11 @@
-## Introduction
+### Introduction
 Version control software is an essential part of modern-day software developer practices.
 
 By far, Git is the most widely used version control system in the world. It is a distributed and actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel.
 
 New to Git? Check out the official getting started guide or this slide from a past talk I gave.
 
-# What is a commit message?
+### What is a commit message?
 The commit command is used to save changes to a local repository after staging in Git. However, before you can save changes in Git, you have to tell Git which changes you want to save as you might have made tons of edits. A great way to do that is by adding a commit message to identify your changes.
 
 Commit Options
@@ -32,7 +32,8 @@ Have you ever tried running git log on one of your old projects to see the "weir
 
 Commit messages can adequately communicate why a change was made, and understanding that makes development and collaboration more efficient.
 
-## How to write?
+### How to write?
+
 Before now, I only used git commit -m "Fix X to allow Y to use Z" on my personal projects with just a subject and no extra description. This is great for small and clear fixes like git commit -m "Fix typo in README.md, but in cases of more extensive changes, you would need to add some extra details.
 
 Editor method
@@ -52,6 +53,7 @@ In the opened editor, the first line is the subject (short description), leave a
 characters>
 
 Command Line method
+    
     git commit -m "Subject" -m "Description..."
 
 The first -m option is the subject (short description), and the next is the extended description (body).
@@ -94,7 +96,7 @@ Resolves: #123
 Looks great, right? Here's how you can make yours great too:
 
 
-Some Examples: 
+### Some Examples
 
 Example 1:
 
@@ -140,6 +142,6 @@ Do not assume the reviewer understands what the original problem was, ensure you
 Do not think your code is self-explanatory
 Follow the commit convention defined by your team
 
-## Conclusion
+### Conclusion
 
 The most important part of a commit message is that it should be clear and meaningful. In the long run, writing good commit messages shows how much of a collaborator you are. The benefits of writing good commit messages are not only limited to your team, but indeed expand to yourself and future contributors.
