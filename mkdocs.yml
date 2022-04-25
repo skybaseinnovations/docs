@@ -5,6 +5,6 @@ theme:
     primary: light blue
 nav:
 - Home : index.md
-- Git Workflow : git.md
+# - Git Workflow : git.md
 markdown_extensions:
 - attr_list
